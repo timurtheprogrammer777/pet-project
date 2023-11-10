@@ -1,0 +1,27 @@
+.search-form__button{
+    color: #fff;
+    background: #4285F4;
+    border: none;
+    padding: 17px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 12%;
+    /* left: 90.5%; */
+    right: 11px;
+    transition: all .3s;
+}
+
+.search-form__button:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width:450px){
+    .search-form__button{
+        font-size: 14px;
+        line-height: 18px;
+        padding: 13px 17px;
+        top: 9%;
+        right: 12px;
+    }
+}

@@ -1,0 +1,16 @@
+.movies-card__button_active{
+    background: #EE3465;
+    position: relative;
+}
+
+/* .movies-card__button_active::before{
+    content: '';
+    background-image: url(../../../../images/check.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 0;
+    top: 0;
+    width: 8px;
+    height: 5px;
+    position: absolute;
+} */

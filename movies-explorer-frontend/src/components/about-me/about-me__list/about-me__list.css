@@ -1,0 +1,17 @@
+.about-me__list{
+    list-style: none;
+    margin: 0 0 180px;
+    padding: 0;
+}
+
+@media screen and (max-width:1000px){
+    .about-me__list{
+        margin: 0 0 148px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .about-me__list{
+        margin: 0 0 130px;
+    }
+}

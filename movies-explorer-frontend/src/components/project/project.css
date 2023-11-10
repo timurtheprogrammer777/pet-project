@@ -1,0 +1,23 @@
+.project{
+    padding: 60px 70px 111px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1000px){
+    .project{
+        padding: 35px 50px 90px; 
+    }
+}
+
+@media screen and (max-width:400px){
+    .project{
+        padding: 35px 18px 90px; 
+    }
+}
+
+@media screen and (max-width:320px){
+    .project{
+        padding: 20px 18px 95px; 
+    }
+}

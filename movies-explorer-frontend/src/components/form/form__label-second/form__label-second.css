@@ -1,0 +1,11 @@
+.form__label-second{
+    position: absolute;
+    top: 7%;
+    left: 0%;
+}
+
+@media screen and (max-width:320px){
+    .form__label-second{
+        top: 5%;
+    }
+}

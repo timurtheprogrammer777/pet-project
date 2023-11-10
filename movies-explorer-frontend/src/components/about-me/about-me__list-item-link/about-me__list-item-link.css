@@ -1,0 +1,20 @@
+.about-me__list-item-link{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 50px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.about-me__list-item-link:hover{
+    opacity: 0.7;
+}
+
+@media screen and (max-width:450px){
+    .about-me__list-item-link{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+

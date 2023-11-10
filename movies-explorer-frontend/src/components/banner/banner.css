@@ -1,0 +1,17 @@
+.banner{
+    margin: 0 0 35px;
+    background-color: #073042;
+    padding: 40px 0 87px; 
+}
+
+@media screen and (max-width:1000px){
+    .banner{
+        padding: 40px 0 78px; 
+    }
+}
+
+@media screen and (max-width:320px){
+    .banner{
+        padding: 40px 0 30px; 
+    }
+}

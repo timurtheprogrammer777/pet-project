@@ -1,0 +1,11 @@
+.form__label-first{
+    position: absolute;
+    bottom: 95%;
+    left: 0%;
+}
+
+@media screen and (max-width:320px){
+    .form__label-first{
+        bottom: 96%;
+    }
+}

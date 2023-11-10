@@ -1,0 +1,10 @@
+/* .header__list-item-main-link_active{
+    display: block;
+    padding-top: 150px;
+} */
+
+.header__list-item-main-link_active{
+    opacity: 1;
+    z-index: 11;
+    color: yellow;
+}

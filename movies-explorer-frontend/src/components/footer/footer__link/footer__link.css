@@ -1,0 +1,25 @@
+.footer__link{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+    transition: all .3s;
+}
+
+.footer__link:hover{
+    text-shadow: 1px 0 #fff;
+}
+
+
+.footer__link:last-child{
+    margin: 10px 0 0 20px;
+}
+
+@media screen and (max-width:370px){
+    .footer__link:last-child{
+        margin: 10px 0 0 0;
+    }
+}

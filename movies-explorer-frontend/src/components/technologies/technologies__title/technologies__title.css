@@ -1,0 +1,24 @@
+.technologies__title{
+    display: block;
+    max-width: 600px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 400;
+    text-align: center;
+    margin: 90px auto 25px;
+}
+
+@media screen and (max-width:1000px){
+    .technologies__title{
+        margin: 80px auto 20px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .technologies__title{
+        font-size: 30px;
+        line-height: 36px;
+        margin: 63px auto 20px;
+    }
+}

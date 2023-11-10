@@ -1,0 +1,11 @@
+.header__navigation{
+    margin: 0;
+    padding: 0;
+    /* transition: all .9s; */
+}
+
+@media screen and (max-width:768px){
+    .header__navigation{
+        display: none;
+    }
+}

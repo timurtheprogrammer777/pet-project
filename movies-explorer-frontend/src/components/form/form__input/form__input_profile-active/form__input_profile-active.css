@@ -1,0 +1,7 @@
+.form__input_profile-active{
+    pointer-events: all;
+}
+
+.form__input_profile-active::placeholder{
+    color: yellow;
+}

@@ -1,0 +1,29 @@
+.header__link-btn{
+    margin-left: 30px;
+    padding: 8px 20px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+    background-color: #3DDC84;
+    border-radius: 3px;
+    transition: all .3s;
+}
+
+.header__link-btn:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width:450px){
+    .header__link-btn{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .header__link-btn{
+        margin-left: 15px;
+        padding: 8px 12px;
+    }
+}

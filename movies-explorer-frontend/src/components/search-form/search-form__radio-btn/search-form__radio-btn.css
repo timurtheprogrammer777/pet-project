@@ -1,0 +1,25 @@
+.search-form__radio-btn{
+    padding: 0;
+    margin: 0;
+    width: 36px;
+    height: 20px;
+    border: none;
+    background: #2BE080;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    transition: all .3s;
+}
+
+.search-form__radio-btn::after{
+    position: absolute;
+    content: '';
+    width: 11px;
+    height: 11px;
+    top: 19%;
+    left: 56%;
+    background: #fff;
+    border-radius: 50%;
+    transition: all .3s;
+
+}

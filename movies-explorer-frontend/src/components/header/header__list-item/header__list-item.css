@@ -1,0 +1,30 @@
+.header__list-item{
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.header__list-item:first-child{
+    margin: 0 0 0 20px;
+}
+
+@media screen and (max-width:768px){
+    .header__list-item{
+        margin: 24px 0 14px 0;
+        padding: 0;
+    }
+
+    .header__list-item:first-child{
+        margin: 160px 0 0 0;
+    }
+}
+
+@media screen and (max-width:320px){
+    .header__list-item{
+        margin: 23px 0 3px 0;
+        padding: 0;
+    }
+
+    .header__list-item:first-child{
+        margin: 145px 0 0 0;
+    }
+}

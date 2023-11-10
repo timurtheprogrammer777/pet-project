@@ -1,0 +1,18 @@
+.header__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* top: 100%;
+    right: 100%;
+    bottom: 100%; */
+    transition: all 1s;
+}
+
+/* @media screen and (max-width:768x){
+    .header__list{
+        margin-right: -200px;
+    }
+} */

@@ -1,0 +1,41 @@
+.about-me__list-item{
+    margin: 20px 0 0;
+    padding: 0 0 20px;
+    border-bottom: 1px solid #424242;
+    position: relative;
+}
+.about-me__list-item::after{
+    content: '';
+    background-image: url(../../../images/arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.about-me__list-item:first-child{
+    margin: 0;
+}
+
+.about-me__list-item:last-child{
+    border-bottom: none;
+}
+
+
+@media screen and (max-width:450px){
+    .about-me__list-item::after{
+        background-image: url(../../../images/arrow-mini.svg);
+        top: 0%;
+        left: 93%;
+        right: none;
+    }
+}
+
+@media screen and (max-width:450px){
+    .about-me__list-item{
+        border-bottom: 1px solid #fff;
+    }
+}

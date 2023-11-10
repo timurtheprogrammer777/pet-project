@@ -1,0 +1,23 @@
+.technologies{
+    padding: 85px 70px 98px;
+    background-color: #272727;
+}
+
+@media screen and (max-width:1000px){
+    .technologies{
+        padding: 72px 50px 90px; 
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .technologies{
+        padding: 35px 18px 90px; 
+    }
+}
+
+@media screen and (max-width:320px){
+    .technologies{
+        padding: 35px 18px 5px; 
+    }
+}

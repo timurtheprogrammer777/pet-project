@@ -1,0 +1,10 @@
+.App{
+    font-family: 'Inter', ‘Arial’, sans-serif;
+    background-color: rgba(32, 32, 32, 1);
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+    /* padding: 18px 70px 20px;
+    max-width: 1140px;
+    margin: 0 auto; */
+}

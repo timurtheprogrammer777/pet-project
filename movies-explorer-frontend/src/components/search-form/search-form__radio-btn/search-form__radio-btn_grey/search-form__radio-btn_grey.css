@@ -1,0 +1,7 @@
+.search-form__radio-btn_grey{
+    background: #EBEBEB;
+}
+
+.search-form__radio-btn_grey::after{
+    left: 18%;
+}

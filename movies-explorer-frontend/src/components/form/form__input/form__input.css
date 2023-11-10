@@ -1,0 +1,13 @@
+.form__input{
+    color: #fff;
+    background: none;
+    border: none;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #424242;
+    outline: none;
+}
+
+
+.form__input:focus{
+    border-bottom: 1px solid #4285F4;
+}

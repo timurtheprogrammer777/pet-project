@@ -1,0 +1,15 @@
+.about-me__inscription{
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+@media screen and (max-width:450px){
+    .about-me__inscription{
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

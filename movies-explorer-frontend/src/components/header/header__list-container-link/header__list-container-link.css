@@ -1,0 +1,25 @@
+.header__list-container-link{
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.header__list-container-link:hover{
+    text-shadow: 1px 0 #fff;
+}
+
+@media screen and (max-width:768px){
+    .header__list-container-link{
+        border-bottom: 2px solid #202020;
+        transition: all .3s;
+        padding: 0 0 4px 0;
+    }
+
+    .header__list-container-link:hover{
+        border-bottom: 2px solid #fff;
+    }
+}

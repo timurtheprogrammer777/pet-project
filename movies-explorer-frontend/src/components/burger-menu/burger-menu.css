@@ -1,0 +1,21 @@
+.burger-menu{
+    display: none;
+    cursor: pointer;
+    transition: all .3s;
+    background: none;
+    border: none;
+    position: relative;
+}
+
+@media screen and (max-width:768px){
+    .burger-menu{
+        display: block;
+        /* background: #fff; */
+        width: 44px;
+        height: 34px;
+        background-image: url(../../images/burger-menu.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+

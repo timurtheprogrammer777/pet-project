@@ -1,0 +1,24 @@
+.register{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:768px){
+    .register{
+        padding-top: 163px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .register{
+        padding-top: 55px;
+        width: 82%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .register{
+        padding-top: 0;
+    }
+}

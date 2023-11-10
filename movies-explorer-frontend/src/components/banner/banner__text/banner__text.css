@@ -1,0 +1,25 @@
+.banner__text{
+    max-width: 310px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    opacity: 0.5;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width:1000px){
+    .banner__text{
+        max-width: 260px;
+        text-align: center;
+        margin: 0 auto 90px;
+    }
+}
+
+
+@media screen and (max-width:320px){
+    .banner__text{
+        margin: 0 auto 85px;
+    }
+}

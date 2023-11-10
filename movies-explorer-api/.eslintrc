@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb-base",
+  "ignorePatterns": [
+    "/middlewares/joiSchemas/movieSchemaJoi.js",
+    "/models/movie.js"
+  ],
+  "rules": {
+    "no-underscore-dangle": ["error",{"allow":["_id"]}]
+  }
+}
+
+

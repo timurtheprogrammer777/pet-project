@@ -1,0 +1,16 @@
+.header{
+    background-color: #073042;
+    padding: 18px 70px 18px ;
+}
+
+@media screen and (max-width:1000px){
+    .header{
+        padding: 18px 30px 18px;
+    }
+}
+
+@media screen and (max-width:333px){
+    .header{
+        padding: 18px 14px 18px;
+    }
+}

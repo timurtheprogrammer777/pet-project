@@ -1,0 +1,25 @@
+.header__list_active{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    /* padding-top: 160px; */
+    flex-direction: column;
+    max-width: 68%;
+    min-height: 100vh;
+    z-index: 10;
+    width: 100%;
+    background: #202020;
+}
+
+/* @media screen and (max-width:768x){
+    .header__list_active{
+        margin-right: 0px;
+    }
+} */
+
+@media screen and (max-width:500px){
+    .header__list_active{
+        max-width: 100%;
+    }
+}

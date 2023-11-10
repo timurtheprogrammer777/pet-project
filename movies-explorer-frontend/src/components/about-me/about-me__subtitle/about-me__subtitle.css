@@ -1,0 +1,23 @@
+.about-me__subtitle{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0 0 26px;
+}
+
+@media screen and (max-width:1000px){
+    .about-me__subtitle{
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 0 16px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .about-me__subtitle{
+        font-size: 11px;
+        line-height: 16px;
+        margin: 0 0 21px;
+    }
+}

@@ -1,0 +1,16 @@
+.section-title{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #dadada;
+}
+
+@media screen and (max-width:450px){
+    .section-title{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,31 @@
+.banner__btn{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    background: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    max-width: 130px;
+    transition: all .3s;
+}
+
+.banner__btn:hover{
+    opacity: 0.7;
+}
+
+@media screen and (max-width:1000px){
+    .banner__btn{
+        text-align: center;
+        max-width: 130px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    .banner__btn{
+        max-width: 90px;
+    }
+}

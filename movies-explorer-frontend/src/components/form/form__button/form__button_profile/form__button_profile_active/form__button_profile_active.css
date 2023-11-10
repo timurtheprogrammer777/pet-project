@@ -1,0 +1,9 @@
+.form__button_profile_active{
+    color:#C2C2C2;
+    background-color: rgba(248, 248, 248, 1);
+    padding: 14px 0;
+    margin: 150px 0 10px 0;
+    max-width: 100%;
+    width: 100%;
+    pointer-events: none;
+}

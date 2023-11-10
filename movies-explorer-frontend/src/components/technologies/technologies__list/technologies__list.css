@@ -1,0 +1,23 @@
+.technologies__list{
+    max-width: 690px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:650px){
+    .technologies__list{
+        max-width: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:650px){
+    .technologies__list{
+        max-width: 200px;
+        grid-template-columns: 1fr 1fr;
+    }
+}

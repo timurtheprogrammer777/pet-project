@@ -1,0 +1,16 @@
+.project__info-text-col-2{
+    margin-left: 40px;
+}
+
+@media screen and (max-width:460px){
+    .project__info-text-col-2{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .project__info-text-col-2{
+        margin-top: 35px;
+    }
+}

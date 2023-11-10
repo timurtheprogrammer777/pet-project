@@ -1,0 +1,17 @@
+.header_authorized{
+    background-color: #202020;
+    margin-bottom: 73px;
+    padding: 18px 70px 18px ;
+}
+
+@media screen and (max-width:1000px){
+    .header_authorized{
+        padding: 18px 30px 18px;
+    }
+}
+
+@media screen and (max-width:333px){
+    .header_authorized{
+        padding: 18px 14px 18px;
+    }
+}
